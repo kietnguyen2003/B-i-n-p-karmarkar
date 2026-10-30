@@ -1,0 +1,22 @@
+# [MasterSpec 3.1, C12] Reproducible install and test configuration.
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "karmarkar-report"
+version = "1.0.0"
+description = "Projective Karmarkar implementation with a Vietnamese teaching notebook"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "scipy>=1.10", "matplotlib>=3.7", "pandas>=2", "PyYAML>=6"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "nbformat>=5.9", "nbclient>=0.10", "ipykernel>=6"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+

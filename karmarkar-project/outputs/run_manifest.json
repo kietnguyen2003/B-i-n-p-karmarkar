@@ -1,0 +1,69 @@
+{
+  "timestamp": "2026-10-30T15:37:29.987449+07:00",
+  "timezone": "Asia/Saigon",
+  "python": "3.14.0rc2 (tags/v3.14.0rc2:31967d8, Aug 14 2025, 13:21:13) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "D:\\Quy hoạch tuyến tính\\Karmarkar\\karmarkar-project\\.venv\\Scripts\\python.exe",
+  "versions": {
+    "numpy": "2.4.4",
+    "scipy": "1.17.1",
+    "matplotlib": "3.10.8",
+    "pandas": "3.0.2",
+    "pytest": "9.2.0",
+    "nbformat": "5.11.1",
+    "nbclient": "0.11.0"
+  },
+  "machine": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 170 Stepping 4, GenuineIntel",
+  "seed": 20261028,
+  "config": {
+    "alpha": 0.25,
+    "epsilon": 1e-06,
+    "max_iter": 1000,
+    "feas_tol": 1e-10,
+    "positive_tol": 0.0,
+    "projection_abs_tol": 1e-14,
+    "projection_rel_tol": 1e-12,
+    "potential_tol": 1e-09,
+    "svd_rtol": 1e-14,
+    "svd_atol": 0.0,
+    "require_nonnegative_certificate": true,
+    "allow_unverified_demo": false,
+    "monitor_potential": false,
+    "verbose": false,
+    "store_trajectory": true
+  },
+  "config_hash": "819f19d973a5f465b47b23334d002f2798ebf802c2b73cb5b1eec52a093dd8d2",
+  "git_commit": null,
+  "source_sha256": {
+    "BC - Mục 4 - Karmarkar.pdf": "7e0d3b2e6c168bdcdfe5b610197e9d672f00f38adce3e75480d415d36b24a492",
+    "Karmarkar_Codex_MasterSpec.pdf": "cf42409aaca71b9338e6dada72f6abb9d28cebb395c3eb4cc6fb0d493ed64fb9"
+  },
+  "timing_scope": "solver only; excludes import, plotting and serialization",
+  "memory": "not measured",
+  "exact_optimality_certificate": false,
+  "repetitions": 5,
+  "case_names": [
+    "F1_source",
+    "F2_n4",
+    "F2_n8",
+    "F2_n16",
+    "F2_n32",
+    "F3_equality",
+    "F4_dependent",
+    "F5_no_movement",
+    "F6_positive_optimum",
+    "F6_constant_positive",
+    "F7_Ae_invalid",
+    "F7_center_invalid",
+    "F7_nan",
+    "F7_shape",
+    "F8_near_dependent",
+    "F8_scale"
+  ],
+  "reference_options": {
+    "method": "highs-ds",
+    "primal_feasibility_tolerance": 1e-09,
+    "dual_feasibility_tolerance": 1e-09
+  },
+  "fairness": "Different stopping criteria/backends; timing is descriptive, not proof of algorithm superiority."
+}

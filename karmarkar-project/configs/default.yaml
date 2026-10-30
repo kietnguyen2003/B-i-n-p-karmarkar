@@ -1,0 +1,19 @@
+# [MasterSpec 2.2, C01/C12] BC 4.3.1: fixed run configuration.
+alpha: 0.25
+epsilon: 0.000001
+max_iter: 1000
+feas_tol: 0.0000000001
+positive_tol: 0.0
+projection_abs_tol: 0.00000000000001
+projection_rel_tol: 0.000000000001
+potential_tol: 0.000000001
+svd_rtol: 0.00000000000001
+svd_atol: 0.0
+require_nonnegative_certificate: true
+allow_unverified_demo: false
+monitor_potential: false
+verbose: false
+store_trajectory: true
+seed: 20261028
+repetitions: 5
+

@@ -1,0 +1,39 @@
+{
+  "started": "2026-10-30T08:37:12.197016+00:00",
+  "checks": {
+    "pytest": {
+      "exit_code": 0,
+      "command": [
+        "D:\\Quy hoạch tuyến tính\\Karmarkar\\karmarkar-project\\.venv\\Scripts\\python.exe",
+        "-m",
+        "pytest",
+        "-q",
+        "--basetemp=outputs/pytest-temp",
+        "--junitxml=outputs/pytest.xml"
+      ]
+    },
+    "source_example": {
+      "exit_code": 0,
+      "command": [
+        "D:\\Quy hoạch tuyến tính\\Karmarkar\\karmarkar-project\\.venv\\Scripts\\python.exe",
+        "scripts/run_example.py"
+      ]
+    },
+    "notebook": {
+      "exit_code": 0,
+      "command": [
+        "D:\\Quy hoạch tuyến tính\\Karmarkar\\karmarkar-project\\.venv\\Scripts\\python.exe",
+        "scripts/run_notebook.py"
+      ]
+    }
+  },
+  "status": "PASS",
+  "pytest": {
+    "tests": 72,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "finished": "2026-10-30T08:37:35.480558+00:00",
+  "visual_review": "See outputs/visual_review.md; manually reviewed separately"
+}

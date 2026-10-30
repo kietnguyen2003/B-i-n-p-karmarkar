@@ -1,0 +1,2 @@
+status=approx_tol_reached; iterations=41; w=8.91352012e-07; z=1.782704024e-06
+actual history rows=42; outputs=D:\Quy hoạch tuyến tính\Karmarkar\karmarkar-project\outputs
